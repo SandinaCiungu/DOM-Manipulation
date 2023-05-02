@@ -1,1 +1,10 @@
-/* CSS styles */
+p.highlight {
+  background-color: yellow;
+}
+
+div.afiseaza {
+  display: inline;
+}
+div.ascunde {
+  display: none;
+}
