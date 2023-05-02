@@ -1,1 +1,35 @@
-/* CSS styles */
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+  border: 1px solid black;
+  width: 300px;
+  height: 205px;
+  padding: 5px;
+  background-color: skyblue;
+}
+legend {
+  font-size: 15px;
+  font-weight: bold;
+}
+.perechi {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+button {
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0px;
+}
+#count-down2 {
+  width: 310px;
+}

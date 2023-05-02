@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <legend>Formular cu validare:</legend>
+        <br />
+        <div class="perechi">
+          <label for="nume">Nume: </label><input type="text" id="nume" />
+        </div>
+        <div class="perechi">
+          <label for="prenume">Prenume: </label
+          ><input type="text" id="prenume" />
+        </div>
+        <div class="perechi">
+          <label for="data-nasterii">Data nasterii: </label
+          ><input type="date" id="data-nasterii" />
+        </div>
+        <div class="perechi">
+          <label for="locul-nasterii">Locul nasterii: </label
+          ><select id="locul-nasterii">
+            <option selected>Bucuresti</option>
+            <option>Brasov</option>
+            <option>Cluj</option>
+            <option>Craiova</option>
+            <option>Dolj</option>
+            <option>Iasi</option>
+            <option>Maramures</option>
+            <option>Olt</option>
+            <option>Prahova</option>
+            <option>SatuMare</option>
+          </select>
+        </div>
+        <div class="perechi">
+          <label for="sex">Sex: </label>
+          <div>
+            <input type="radio" id="sexM" name="sex" value="M" checked />
+            <label for="sexM">M</label>
+            <input type="radio" id="sexF" name="sex" value="F" />
+            <label for="sexF">F</label>
+          </div>
+        </div>
 
-  <script src="app.js"></script>
-</body>
+        <br />
+        <button type="submit" id="buton">Validare</button>
+      </form>
+      <p id="count-down">CountDown</p>
+      <p id="count-down2">CountDown2</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
